@@ -1,0 +1,96 @@
+﻿Build started 4/27/2012 3:20:23 AM.
+     1>Project "C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\FinalWanderer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\FinalWanderer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /I..\..\..\cinder\include /I..\..\..\cinder\boost /I..\..\..\cinder\blocks\opencv\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D NOMINMAX /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\WandererApp.cpp
+         WandererApp.cpp
+     1>c:\users\brian\documents\cinder\blocks\opencv\include\opencv2/flann/logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\FinalWanderer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\..\QuickTimeSDK-7.3\Libraries" /LIBPATH:..\..\..\cinder\blocks\opencv\lib\vc10\ /LIBPATH:..\..\..\cinder\lib /LIBPATH:..\..\..\cinder\lib\msw QTMLClient.lib CVClient.lib QTSClient.lib opencv_core230.lib opencv_imgproc230.lib opencv_objdetect230.lib cinder.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FinalWanderer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\FinalWanderer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\FinalWanderer.lib" /MACHINE:X86 Release\Environment.obj
+         Release\Food.obj
+         Release\LSystem.obj
+         Release\Wanderer.obj
+         Release\WandererApp.obj
+         Release\WandererFoot.obj
+         Generating code
+         Finished generating code
+     1>cinder.lib(Area.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(AxisAlignedBox.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(BSpline.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Buffer.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Camera.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Capture.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(CaptureImplDirectShow.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Channel.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(DataSource.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(DataTarget.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Display.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Exception.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Font.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(ImageIo.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(ImageSourceFileWic.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(ImageTargetFileWic.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(CinderMath.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Path2D.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Perlin.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Rand.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Ray.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Rect.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Shape2d.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Stream.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Surface.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Text.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Timer.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Triangulate.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(TriMesh.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Url.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(UrlImplWinInet.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Utilities.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(App.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(AppBasic.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(AppImplMsw.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(AppImplMswBasic.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(AppImplMswRendererGdi.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(AppImplMswRendererGl.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(KeyEvent.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Renderer.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(gl.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(GLee.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Texture.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(VBO.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Fill.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(Flip.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(CinderMsw.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(CinderMswGdiPlus.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(StackWalker.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(bucketalloc.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(dict.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(geom.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(mesh.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(priorityq.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(sweep.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(tess.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(videoInput.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(zutil.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(trees.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(inftrees.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(inflate.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(inffast.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(gzio.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(deflate.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(crc32.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(compress.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cinder.lib(adler32.obj) : warning LNK4204: 'C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         FinalWanderer.vcxproj -> C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\FinalWanderer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\Release\FinalWanderer.exe;#1" /manifest Release\FinalWanderer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\FinalWanderer.unsuccessfulbuild".
+         Touching "Release\FinalWanderer.lastbuildstate".
+     1>Done Building Project "C:\Users\Brian\Documents\cinder projects\FinalWanderer\vc10\FinalWanderer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.74
